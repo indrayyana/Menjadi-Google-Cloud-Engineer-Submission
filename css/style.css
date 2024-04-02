@@ -1,0 +1,64 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.bg-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    text-align: center;
+    margin: 3% 0;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    margin: 20px 10%;
+}
+
+.my-story {
+    width: 50%;
+}
+
+.personal-information {
+    width: 50%;
+    margin: 0 20px;
+}
+
+hr {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.medsos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    padding: 5px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    margin: 10px 70px;
+}
